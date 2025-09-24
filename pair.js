@@ -81,11 +81,11 @@ router.get("/", async (req, res) => {
               ""
             );
 
-            const sid = `*NIMSARA [The powerful WA BOT]*\n\n👉 ${string_session} 👈\n\n*This is the your Session ID, copy this id and paste into config.js file*\n\n*You can ask any question using this link*\n\n*wa.me/message/WKGLBR2PCETWD1*\n\n*You can join my whatsapp group*\n\n**`;
+            const sid = `*NIMSARA [The powerful WA BOT]*\n\n\n**`;
             const mg = `🛑 *Do not share this code to anyone* 🛑`;
             const dt = await RobinPairWeb.sendMessage(user_jid, {
               image: {
-                url: "https://photos.app.goo.gl/EZb4NG9DH6s4ua9z9",
+                url: "https://raw.githubusercontent.com/Kalharajayakodi/NIMSARA-/refs/heads/main/Polish_20241011_223925506.jpg",
               },
               caption: sid,
             });
@@ -129,4 +129,5 @@ process.on("uncaughtException", function (err) {
 });
 
 module.exports = router;
+
 
